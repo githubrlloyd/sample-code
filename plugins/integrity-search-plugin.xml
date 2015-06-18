@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>PTC Integrity</ShortName>
+    <LongName>PTC Integrity Text Search</LongName>
+    <Description>Search for text string on PTC Integrity Server</Description>
+    
+    
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">data:image/x-icon;base64,http://integrity.ptc.com:7001/__/13.0.0.7337.000.00/images/ci/Generic_Run.png</Image>
+  <Url type="text/html" template="http://integrity.ptc.com:7001/im/issues?queryDefinition=((field.anyTextField contains {searchTerms}))"/>
+</OpenSearchDescription>
